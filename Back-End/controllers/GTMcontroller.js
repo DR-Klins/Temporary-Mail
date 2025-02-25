@@ -3,16 +3,16 @@ const crypto = require("crypto");
 
 // Array of random domains
 const randomDomains = [
-  "@cevipsa.com",
-  "@cpav3.com",
-  "@nuclene.com",
-  "@steveix.com",
-  "@mocvn.com",
-  "@tenvil.com",
-  "@tgvis.com",
-  "@amozix.com",
-  "@anypsd.com",
-  "@maxric.com",
+  "cevipsa.com",
+  "cpav3.com",
+  "nuclene.com",
+  "steveix.com",
+  "mocvn.com",
+  "tenvil.com",
+  "tgvis.com",
+  "amozix.com",
+  "anypsd.com",
+  "maxric.com",
 ];
 
 exports.generateTemporaryMail = BigPromise(async (req, res) => {
