@@ -2,6 +2,9 @@ const express = require("express");
 require("dotenv").config();
 const app = express();
 
+const cors = require("cors");
+app.use(cors());
+
 //custom error middleware for easy front end
 const productionError = require("./middlewares/productionError");
 

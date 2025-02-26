@@ -73,4 +73,10 @@ html {
 
 body {
   cursor: none;
+  overscroll-behavior: none;
+  touch-action: manipulation;
+}
+
+.scrollable-container {
+  overflow: hidden; /* Prevents extra scrollbars inside this container */
 }

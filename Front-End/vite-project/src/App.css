@@ -47,4 +47,18 @@ html {
 
 body {
   cursor: none;
+  overscroll-behavior: none;
+  touch-action: manipulation;
+}
+
+html,
+body {
+  overscroll-behavior: none;
+  height: 100%; /* Ensure full height for the body */
+  margin: 0; /* Remove any default margins */
+  padding: 0; /* Remove any default padding */
+}
+
+#root {
+  min-height: 100vh; /* Ensure the app uses the full viewport height */
 }
